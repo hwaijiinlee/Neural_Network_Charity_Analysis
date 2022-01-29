@@ -11,12 +11,12 @@ The purpose of this analysis is to use Neural Network models to predict whether 
 ### Optimization #1 and #2:
 The target column is dropped, so are the "Status" and "Special Considerations" columns.
 
-[!opt#1_features](https://github.com/hwaijiinlee/Neural_Network_Charity_Analysis/blob/main/Resources/Opt%231_features.png)
+![opt#1_features](https://github.com/hwaijiinlee/Neural_Network_Charity_Analysis/blob/main/Resources/Opt%231_features.png)
 
 ### Optimization #3:
 In addition to the columns dropped in Optimizations #1 and #2, the "Affiliation" column is dropped as well.
 
-[!opt#3_features](https://github.com/hwaijiinlee/Neural_Network_Charity_Analysis/blob/main/Resources/Opt%233_features.png)
+![opt#3_features](https://github.com/hwaijiinlee/Neural_Network_Charity_Analysis/blob/main/Resources/Opt%233_features.png)
 
 
  
