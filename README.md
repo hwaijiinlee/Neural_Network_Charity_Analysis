@@ -5,7 +5,7 @@ The purpose of this analysis is to use Neural Network models to predict whether 
 
 ## Data Preprocessing
 1) The target for the model is "IS_SUCCESSFUL" i.e. whether the applicants will be successful or not.
-2) The EIN and Name of the applicants are neither features nor targets and are dropped during preprocessing.
+2) The "EIN" and "Name" of the applicants are neither features nor targets and are dropped during preprocessing.
 3) The features of the three optimization models used are as follows:
 
 ### Optimization #1 and #2:
@@ -17,6 +17,30 @@ The target column is dropped, so are the "Status" and "Special Considerations" c
 In addition to the columns dropped in Optimizations #1 and #2, the "Affiliation" column is dropped as well.
 
 ![opt#3_features](https://github.com/hwaijiinlee/Neural_Network_Charity_Analysis/blob/main/Resources/Opt%233_features.png)
+
+## Compiling, Training and Evaluating the Model
+1) In trying to optimize the model, a variety of number of neurons, layers and activation functions are tested. They are listed below:
+
+### Optimization #1:
+- Two hidden layers are used with 100 and 40 neurons respectively
+- The ReLu activation function is used for the two hidden layers
+- The sigmoid activation function is used for the output layer
+
+![opt#1 model](https://github.com/hwaijiinlee/Neural_Network_Charity_Analysis/blob/main/Resources/Opt%231_model.png)
+
+### Optimization #2:
+- Two hidden layers are used with 160 and 50 neurons respectively
+- The ReLu activation function is used for the two hidden layers
+- The sigmoid activation function is used for the output layer
+
+![opt#2 model](https://github.com/hwaijiinlee/Neural_Network_Charity_Analysis/blob/main/Resources/Opt%232_model.png)
+
+### Optimization #3:
+- Three hidden layers are used with 80, 30, and 10 neurons respectively
+- The ReLu activation function is used for the hidden layers
+- The tanh activation function is used for the output layer
+
+![opt#3 model](https://github.com/hwaijiinlee/Neural_Network_Charity_Analysis/blob/main/Resources/Opt%233_model.png)
 
 
  
